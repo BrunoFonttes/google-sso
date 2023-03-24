@@ -20,7 +20,7 @@ const Authorization = () => {
       groupKey: process.env.GOOGLE_AUTHORIZED_GROUP,
       memberKey: member
     })
-    return res?.data?.isMember
+    return res.data.isMember
   }
   return { isAuthorized }
 }
